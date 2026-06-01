@@ -1,28 +1,32 @@
 # VIVEC Landing Page Assignment
 
-Responsive static website recreated from the provided Figma design reference for the Junior Web Developer selection task.
+A fully responsive static website developed as part of the VIVEC Junior Web Developer Assignment. The project recreates the provided Figma design with a focus on clean UI, responsiveness, and modern frontend practices.
 
-## Tech Stack
+## Live Demo
+
+🔗 https://aadharshila-assignment.netlify.app/
+
+## Features
+
+- Fully responsive design (Desktop, Tablet, Mobile)
+- Modern and clean user interface
+- Interactive hero slider
+- Quick action cards section
+- About/Profile section
+- Statistics showcase
+- Programs & Courses section
+- Study options and feature highlights
+- Student testimonials
+- Alumni & placement showcase
+- Success stories gallery
+- Newsletter subscription section
+- Footer with social media links
+
+## Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript
-
-No build tools or package installation are required.
-
-## Included Sections
-
-- Figma-style top utility bar, logo/contact header, and green navigation menu
-- Hero slideshow with separate text for each slide
-- Quick action cards
-- About/profile section
-- Statistics band
-- Programs/courses section
-- Study options and feature grid
-- Testimonials
-- Alumni/working-with section
-- Success stories image gallery
-- Footer with social links, subscribe form, and Instagram previews
+- JavaScript (Vanilla JS)
 
 ## Project Structure
 
@@ -32,35 +36,6 @@ No build tools or package installation are required.
 ├── styles.css
 ├── script.js
 ├── assets/
+│   ├── images
+│   └── icons
 └── screenshots/
-```
-
-## Setup Instructions
-
-1. Download or clone the project folder.
-2. Open the project folder in a code editor.
-3. Open `index.html` directly in a browser.
-
-Optional local server:
-
-```bash
-python -m http.server 4173
-```
-
-Then open:
-
-```text
-http://127.0.0.1:4173/
-```
-
-## Responsive Testing
-
-The page is designed for desktop, tablet, and mobile screen sizes. Use browser developer tools to test common widths such as:
-
-- Desktop: 1440px
-- Tablet: 1024px
-- Mobile: 390px
-
-## Notes
-
-All images used by the page are stored locally in the `assets` folder. The website is fully static and can be submitted without any dependency installation.
